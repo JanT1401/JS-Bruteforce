@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruteforce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="headline">Bruteforce</h1>
+    <div class="container">
+        <input id="input" placeholder="Enter all characters you want to test">
+        <button id="defaultButton">Default</button>
+        <button id="clearButton">Clear</button>
+    </div>
+    <input oninput="changeForces()" type="range" min="1" max="200" id="numberOfForces" placeholder="Password length">
+    <span id="showForces">Characters: 1</span>
+    <button id="startButton" onclick="startButtonClick()">Start</button>
+    <h1 id="bruteforce">open console!</h1>
+</body>
+</html>
